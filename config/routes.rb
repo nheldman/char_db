@@ -1,4 +1,6 @@
 CharDb::Application.routes.draw do
+  resources :characters
+
   get "pages/home"
 
   root :to => "pages#home"
